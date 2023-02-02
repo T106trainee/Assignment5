@@ -1,0 +1,34 @@
+main {
+    width: 100%;
+    max-width: 700px;
+  }
+  input {
+    width: 90%;
+    min-width: 0px;
+  }
+  .evaluator-container,
+  .student-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .evaluator-details,
+  .student-details {
+    margin-bottom: 10px;
+  }
+  .performance{
+    margin-bottom: 4px;
+  }
+  .select-items{
+    width: 160px;
+    margin-bottom: 10px;
+  }
+  .text-areas {
+    min-width: 90px;
+    max-width: 670px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  button{
+    margin-left: 250px;
+  }
+  
